@@ -1,0 +1,16 @@
+.galleryBoard {
+  padding: 50px 24px;
+}
+.galleryGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  align-items: center;
+  gap: 1.75rem;
+}
+
+@media (max-width: 600px) {
+  /* CSS rules for small screens */
+  .galleryGrid {
+    grid-template-columns: 1fr;
+  }
+}

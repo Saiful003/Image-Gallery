@@ -1,0 +1,10 @@
+.container {
+  max-width: 76rem;
+  width: 90%;
+  margin-inline: auto;
+}
+.galleryWrapper {
+  border-radius: 6px;
+  background-color: #ffff;
+  margin: 20px 0;
+}

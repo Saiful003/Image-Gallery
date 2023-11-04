@@ -1,0 +1,21 @@
+.addImageWrapper {
+  border: 2px dotted #979797;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 60px 0;
+}
+.addContentWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+.downloadImg {
+  width: 40px;
+}
+.addImage {
+  font-size: 20px;
+}

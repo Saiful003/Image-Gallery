@@ -1,0 +1,45 @@
+:root {
+  --font-size: 20px;
+}
+.galleryHeader {
+  padding: 20px 24px;
+  border-bottom: 1px solid #ddd;
+}
+.galleryHeaderTitle {
+  font-size: var(--font-size);
+}
+.galleryHeaderContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.galleryLeftWrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.galleryLeftWrapper p {
+  font-size: var(--font-size);
+}
+
+.deleteText {
+  text-decoration: none;
+  color: red;
+  font-size: var(--font-size);
+}
+.deleteText:hover {
+  text-decoration: underline;
+}
+.headerCheckbox {
+  width: var(--font-size);
+  aspect-ratio: 1;
+  cursor: pointer;
+}
+/* Media Query */
+@media (max-width: 375px) {
+  /* CSS rules for small screens */
+  .galleryHeaderContent {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+}
