@@ -56,7 +56,7 @@ function GalleryHeader() {
               className={styles.deleteText}
               href="#"
             >
-              Delete files
+              {selectedItemCount === 1 ? "Delete File" : "Delete Files"}
             </a>
           </div>
         </div>
